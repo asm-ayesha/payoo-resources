@@ -9,13 +9,12 @@ function getValueFromInput(id) {
 function getBalance() {
     const balanceEl = document.getElementById('balance');
     const balance = balanceEl.innerText;
-    console.log('current balance', balance)
     return Number(balance);
 }
 
 
 // machin -> sset balance
-function setBalance(){
+function setBalance(value){
     const balanceEl = document.getElementById('balance');
     balanceEl.innerText = value ;
 }
